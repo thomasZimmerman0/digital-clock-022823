@@ -1,0 +1,31 @@
+@import url('https://fonts.cdnfonts.com/css/alarm-clock');
+
+.fix-height {
+    height: 100vh;
+}
+
+.digital-clock{
+    font-family: 'alarm clock', sans-serif;
+    text-align: center;
+    font-size: 100px;
+}
+
+button{
+    border-radius: 5px;
+    border-color: lightgray;
+    background-color: gray;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    
+}
+
+button:disabled{
+    background-color:rgb(0, 195, 255);
+}
+button:disabled:hover{
+    background-color:rgb(0, 195, 255);
+}
+
+button:hover {
+    background-color: lightblue;
+}
